@@ -1,130 +1,206 @@
 {
-    "title": "dev_mode",
-    "rules": [{
-            "description": "left_bracket",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "modifiers": {
-                        "mandatory": [
-                            "right_gui"
-                        ]
-                    },
-                    "key_code": "semicolon"
-                },
-                "to": [{
-                    "repeat": false,
-                    "modifiers": [
-                        "right_alt"
-                    ],
-                    "key_code": "8"
-                }]
-            }]
-        },
+  "title": "dev_mode",
+  "rules": [
+    {
+      "description": "left_bracket",
+      "manipulators": [
         {
-            "description": "right_bracket",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "modifiers": {
-                        "mandatory": [
-                            "right_gui"
-                        ]
-                    },
-                    "key_code": "quote"
-                },
-                "to": [{
-                    "repeat": false,
-                    "modifiers": [
-                        "right_alt"
-                    ],
-                    "key_code": "9"
-                }]
-            }]
-        },
-        {
-            "description": "left_array_bracket",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "modifiers": {
-                        "mandatory": [
-                            "right_alt"
-                        ]
-                    },
-                    "key_code": "semicolon"
-                },
-                "to": [{
-                    "repeat": false,
-                    "modifiers": [
-                        "right_alt"
-                    ],
-                    "key_code": "5"
-                }]
-            }]
-        },
-        {
-            "description": "right_array_bracket",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "modifiers": {
-                        "mandatory": [
-                            "right_alt"
-                        ]
-                    },
-                    "key_code": "quote"
-                },
-                "to": [{
-                    "repeat": false,
-                    "modifiers": [
-                        "right_alt"
-                    ],
-                    "key_code": "6"
-                }]
-            }]
-        },
-        {
-            "description": "and",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "modifiers": {
-                        "mandatory": [
-                            "right_gui"
-                        ]
-                    },
-                    "key_code": "open_bracket"
-                },
-                "to": [{
-                    "repeat": false,
-                    "modifiers": [
-                        "left_shift"
-                    ],
-                    "key_code": "6"
-                }]
-            }]
-        },
-        {
-            "description": "or",
-            "manipulators": [{
-                "type": "basic",
-                "from": {
-                    "modifiers": {
-                        "mandatory": [
-                            "right_alt"
-                        ]
-                    },
-                    "key_code": "open_bracket"
-                },
-                "to": [{
-                    "repeat": false,
-                    "modifiers": [
-                        "right_alt"
-                    ],
-                    "key_code": "7"
-                }]
-            }]
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_gui"
+              ]
+            },
+            "key_code": "semicolon"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "right_alt"
+              ],
+              "key_code": "8"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "description": "right_bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_gui"
+              ]
+            },
+            "key_code": "quote"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "right_alt"
+              ],
+              "key_code": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "left_array_bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "semicolon"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "right_alt"
+              ],
+              "key_code": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "right_array_bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "quote"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "right_alt"
+              ],
+              "key_code": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "and",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_gui"
+              ]
+            },
+            "key_code": "open_bracket"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "left_shift"
+              ],
+              "key_code": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "or",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "open_bracket"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "right_alt"
+              ],
+              "key_code": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "slash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            },
+            "key_code": "period"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "left_shift"
+              ],
+              "key_code": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "backslash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            },
+            "key_code": "slash"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ],
+              "key_code": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
